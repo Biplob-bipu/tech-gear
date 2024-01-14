@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+*{
+    padding:0;
+    margin:0
+}
+
+
+/* header area style */
+.header_area{
+    width:1330px;
+    margin:0 auto;
+    padding-top: 85px;
+    
+}
+.active{
+    color:#fff;
+    background:red;
+    padding:5px;
+    border:1px solid black;
+    border-radius:10px;
+}
+.active:hover{
+    background:#fff;
+    color:red;
+    transition:0ms;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size:20px;
+    color:#3A3A3A;
+}
+nav ul li a:hover{
+    color:rgb(196, 35, 13);
+}
+nav ul li{
+    
+    list-style:none;
+    display:inline-block;
+    margin-right:30px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.header h3{
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner_img{
+    background: url(<path-to-image>), lightgray -256.697px -123px / 220.317% 154.831% no-repeat;
+    border-radius: 50%;
+    width:440px;
+    height:414px;
+}
