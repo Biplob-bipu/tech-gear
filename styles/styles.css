@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+*{
+    padding:0;
+    margin:0
+    font-family: Poppins;
+}
+
+/* shared css */
+.primary_btn{
+    border: 1px solid;
+    border-radius: 41px;
+    background: #E02C6D;
+    color:#fff;
+    padding:10px;
+    width:30%;
+    margin-top: 15px;;
+}
+/* header area style */
+.header_area{
+    width:1330px;
+    margin:0 auto;
+    padding-top: 85px;
+    
+}
+.active{
+    color:#fff;
+    background:red;
+    padding:5px;
+    border:1px solid black;
+    border-radius:10px;
+}
+.active:hover{
+    background:#fff;
+    color:red;
+    transition:0ms;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size:20px;
+    color:#3A3A3A;
+}
+nav ul li a:hover{
+    color:rgb(196, 35, 13);
+}
+nav ul li{
+    
+    list-style:none;
+    display:inline-block;
+    margin-right:30px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.header h3{
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Banner area style */
+
+.banner_img_area{
+    border: 3px solid #F1E4FF;
+    border-radius: 50%;
+    width: 40%;
+    display: block;
+}
+.banner_background{
+    background-color: #F1E4FF;
+    width: 332px;
+    border-radius: 50%;
+    height: 400px;
+    padding: -7px;
+    margin-top: 39px;
+    margin-left: 86px;
+}
+.banner_camera img{
+width: 500px;
+margin-right: 0px;
+margin-left: -52px;
+/* margin-bottom: 10px; */
+}
+.banner_img img{
+    width:50%
+}
+
+.banner_area{
+    display:flex;
+    justify-content: space-between;
+}
+.banner_txt{
+    width:50%;
+    margin-top:145px;
+}
+.banner_txt h2{
+color: #3A3A3A;
+font-family: Poppins;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; 
+}
+.banner_txt p{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.banner_area{
+
+}
